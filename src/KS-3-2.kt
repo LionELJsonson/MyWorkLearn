@@ -6,13 +6,15 @@ fun main() {
     * Все части ФИО и возраст изначально хранятся в отдельных переменных.
     * */
 
-    var nameWoman = "Андреева Татьяна Сергеевна"
+    var lastName = "Андреева"
+    val firstName = "Татьяна"
+    val middleName = "Сергеевна"
     var age = 20
 
-    println("$nameWoman $age лет")
+    println("$lastName $firstName $middleName, $age лет")
 
-    nameWoman = "Сидорова Татьяна Сергеевна"
+    lastName = "Сидорова"
     age = 22
 
-    println("$nameWoman $age года")
+    println("$lastName $firstName $middleName $age года")
 }

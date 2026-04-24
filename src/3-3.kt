@@ -8,4 +8,15 @@ fun main() {
     * */
 
     val numCount = 6;
+    println("""
+        $numCount x 1 = ${numCount * 1}
+        $numCount x 2 = ${numCount * 2}
+        $numCount x 3 = ${numCount * 3}
+        $numCount x 4 = ${numCount * 4}
+        $numCount x 5 = ${numCount * 5}
+        $numCount x 6 = ${numCount * 6}
+        $numCount x 7 = ${numCount * 7}
+        $numCount x 8 = ${numCount * 8}
+        $numCount x 9 = ${numCount * 9}
+    """.trimIndent())
 }
